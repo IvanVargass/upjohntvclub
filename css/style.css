@@ -1,7 +1,41 @@
+
+.bg-upjohntv{
+    background-color: #7f4ea7b5 !important;
+}
+
+#header-carousel{
+    top: -100px !important;
+}
+
+.btn-banner{
+    border-radius: 30px;
+}
+
+.btn-banner:hover{
+    background-color: #fff !important;
+    border: 3px solid #703f98 !important;
+    color: #703f98 !important;
+}
+
+.text-card-pacientes{
+    position: relative; 
+    bottom: 50px; 
+    background-color: #703f98c8; 
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500 !important;
+    padding: 10px 0;
+}
+
+.btn-card{
+    border: 2px solid #703f98;
+    border-radius: 20px;
+}
+
 /********** Template CSS **********/
 :root {
-    --primary: #FD5D14;
-    --secondary: #FDBE33;
+    --primary: #703f98;
+    --secondary: #fff;
     --light: #F4F6F8;
     --dark: #040F28;
 }
@@ -112,10 +146,16 @@
     transition: .5s;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav,
+.navbar-dark .navbar-nav {
     color: var(--primary);
 }
+
+.nav-link.active, .nav-link:hover {
+    font-weight: bold;
+}
+
+
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
@@ -129,7 +169,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(4, 15, 40, .7);
+    background: rgba(4, 15, 40, .45);
     z-index: 1;
 }
 
