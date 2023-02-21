@@ -9,12 +9,13 @@
 
 .btn-banner{
     border-radius: 30px;
+    border: none !important;
 }
 
 .btn-banner:hover{
-    background-color: #fff !important;
-    border: 3px solid #703f98 !important;
-    color: #703f98 !important;
+    background-color: #703f98 !important;
+    color: #fff !important;
+    border: none !important;
 }
 
 .text-card-pacientes{
@@ -53,6 +54,18 @@
     transform: scale(1.02);
     transition: all 0.2s linear;
     background-color: #1da3dc;
+}
+
+.btn-azul{
+    background: #0483ba;
+    color: #fff !important;
+    padding: 3px 15px !important;
+}
+
+.btn-morado{
+    background: #703f98 !important;
+    color: #fff !important;
+    padding: 3px 15px !important;
 }
 
 .flecha{
@@ -106,11 +119,6 @@
     background: var(--dark);
 }
 
-.btn:hover::after,
-.btn.active::after {
-    width: 50%;
-    left: 25%;
-}
 
 .btn-primary {
     color: #FFFFFF;
