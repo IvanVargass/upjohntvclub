@@ -32,6 +32,37 @@
     border-radius: 20px;
 }
 
+.btn-sitios-web{
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: #0483ba;
+    padding: 0.7rem 0.7rem 0.7rem 1.2rem;
+    border-radius: 25px;
+    color: #fff;
+    font-family: "FSAlbertBold", sans-serif;
+    box-shadow: 0 4px 7px rgb(30 55 108 / 40%);
+    transition: all 0.4s linear;
+}
+
+.btn-sitios-web:hover{
+    color: #fff !important;
+    transform: scale(1.02);
+    transition: all 0.2s linear;
+    background-color: #1da3dc;
+}
+
+.flecha{
+    background-color: #fff; 
+    border-radius: 50%; 
+    padding: 3px 8px; 
+    color: #0483ba !important;
+    margin-right: 5px;
+}
+
 /********** Template CSS **********/
 :root {
     --primary: #703f98;
